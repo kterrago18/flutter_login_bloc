@@ -4,6 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_login_bloc/authentication/bloc/authentication_bloc.dart';
 import 'package:user_repository/user_repository.dart';
 
+import 'splash/view/splash_page.dart';
+
 void main() {
   runApp(App(
     authenticationRepository: AuthenticationRepository(),
