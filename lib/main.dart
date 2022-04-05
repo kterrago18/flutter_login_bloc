@@ -29,8 +29,8 @@ class App extends StatelessWidget {
       value: authenticationRepository,
       child: BlocProvider(
         create: (_) => AuthenticationBloc(
-          authenticationRepository,
-          userRepository,
+          authenticationRepository: authenticationRepository,
+          userRepository: userRepository,
         ),
         child: const AppView(),
       ),
